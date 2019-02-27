@@ -10,8 +10,10 @@ Description: This package provides the framework to perform quick and high level
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Suggests: 
-    testthat,
-    MASS
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+Suggests:
+    testthat,
+    MASS
+Imports: 
+    stringr

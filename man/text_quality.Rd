@@ -13,11 +13,14 @@ exhaustive toxic-english words to calculate the toxicity in the string.
 Takes in a string and returns a data.frame with one row and two columns
 First column contains proportion of spelling errors in the input
 contains and the second column storestoxicity in the the input string.}
+\source{
+data
+}
 \usage{
-text_quality(text)
+text_quality(txt)
 }
 \arguments{
-\item{text}{string}
+\item{txt}{string}
 }
 \value{
 data.frame
@@ -38,5 +41,5 @@ contains and the second column storestoxicity in the the input string.
 \examples{
 text <- "This str has words spelllll wrong. This string has a slag word shitty."
 
-quality <- text_quality(text)
+quality <- text_quality(txt)
 }
